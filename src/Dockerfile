@@ -9,4 +9,5 @@ RUN go build
 
 FROM alpine
 COPY --from=build /go/src/dashboard /
+COPY --from=build /go/src/site /
 CMD ["/dashboard"]
