@@ -46,7 +46,7 @@
 
 	var list = document.getElementById("links");
 	
-	if (grafanaEnabled = "true") {
+	if (grafanaEnabled == "true") {
 		var grafanaListItem = document.createElement("li");
 		var grafanaLink = document.createElement("a");
 		grafanaLink.textContent = "Grafana";
@@ -56,7 +56,7 @@
 	}
 
 	
-	if (jaegerEnabled = "true") {
+	if (jaegerEnabled == "true") {
 		var jaegerListItem = document.createElement("li");
 		var jaegerLink = document.createElement("a");
 		jaegerLink.textContent = "Jaeger";
@@ -65,7 +65,7 @@
 		list.appendChild(jaegerListItem);
 	}
 
-	if (prometheusEnabled = "true") {
+	if (prometheusEnabled == "true") {
 		var prometheusListItem = document.createElement("li");
 		var prometheusLink = document.createElement("a");
 		prometheusLink.textContent = "Prometheus";
@@ -74,7 +74,7 @@
 		list.appendChild(prometheusListItem);
 	}
 
-	if (linkerdEnabled = "true") {
+	if (linkerdEnabled == "true") {
 		var linkerdListItem = document.createElement("li");
 		var linkerdLink = document.createElement("a");
 		linkerdLink.textContent = "Linkerd";
@@ -83,7 +83,7 @@
 		list.appendChild(linkerdListItem);
 	}
 
-	if (rabbitMQEnabled = "true") {
+	if (rabbitMQEnabled == "true") {
 		var rabbitMQListItem = document.createElement("li");
 		var rabbitMQLink = document.createElement("a");
 		rabbitMQLink.textContent = "RabbitMQ";
@@ -92,7 +92,7 @@
 		list.appendChild(rabbitMQListItem);
 	}
 
-	if (alertManagerEnabled = "true") {
+	if (alertManagerEnabled == "true") {
 		var alertManagerListItem = document.createElement("li");
 		var alertManagerLink = document.createElement("a");
 		alertManagerLink.textContent = "AlertManager";
